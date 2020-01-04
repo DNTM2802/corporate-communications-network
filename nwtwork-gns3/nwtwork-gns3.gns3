@@ -553,8 +553,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg height=\"25\" width=\"40\"><text fill=\"#00007f\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">:100</text></svg>",
-                "x": -470,
-                "y": 357,
+                "x": -474,
+                "y": 355,
                 "z": 2
             },
             {
@@ -562,8 +562,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg height=\"25\" width=\"31\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">.11</text></svg>",
-                "x": -497,
-                "y": 357,
+                "x": -501,
+                "y": 355,
                 "z": 2
             },
             {
@@ -633,7 +633,7 @@
                 "drawing_id": "960b116f-7bf4-409b-8644-efb7c80af0a2",
                 "locked": false,
                 "rotation": -40,
-                "svg": "<svg height=\"22\" width=\"92\"><text fill=\"#8b8782\" fill-opacity=\"1.0\" font-family=\"Sans Serif\" font-size=\"8.0\">192.168.9.0/24</text></svg>",
+                "svg": "<svg height=\"22\" width=\"98\"><text fill=\"#8b8782\" fill-opacity=\"1.0\" font-family=\"Sans Serif\" font-size=\"8.0\">192.168.10.0/24</text></svg>",
                 "x": -398,
                 "y": -218,
                 "z": 2
@@ -642,7 +642,7 @@
                 "drawing_id": "711c1d6b-1cfb-4b61-90cd-f5a51b9106fa",
                 "locked": false,
                 "rotation": 36,
-                "svg": "<svg height=\"22\" width=\"98\"><text fill=\"#8b8782\" fill-opacity=\"1.0\" font-family=\"Sans Serif\" font-size=\"8.0\">192.168.10.0/24</text></svg>",
+                "svg": "<svg height=\"22\" width=\"98\"><text fill=\"#8b8782\" fill-opacity=\"1.0\" font-family=\"Sans Serif\" font-size=\"8.0\">192.168.11.0/24</text></svg>",
                 "x": -153,
                 "y": -277,
                 "z": 2
@@ -2364,7 +2364,7 @@
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
                 "x": -380,
-                "y": 69,
+                "y": 62,
                 "z": 1
             },
             {
@@ -2449,8 +2449,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": -180,
-                "y": 69,
+                "x": -179,
+                "y": 62,
                 "z": 1
             },
             {
