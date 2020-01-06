@@ -1,0 +1,61 @@
+Jan 06 16:02:07.719 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 06 16:02:07.719 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53169.
+Jan 06 16:02:07.729 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 06 16:02:07.729 HYPERVISOR: exec_cmd: hypervisor working_dir /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips 
+Jan 06 16:02:07.729 GENERAL: working_dir=/home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips
+Jan 06 16:02:07.730 HYPERVISOR: exec_cmd: hypervisor working_dir /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/f06b0bc6-e8f6-49dd-95d6-b4c13e2c1fb6 
+Jan 06 16:02:07.730 GENERAL: working_dir=/home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/f06b0bc6-e8f6-49dd-95d6-b4c13e2c1fb6
+Jan 06 16:02:07.730 HYPERVISOR: exec_cmd: vm create SWL3A 5 c3725 
+Jan 06 16:02:07.730 VM: VM SWL3A created.
+Jan 06 16:02:07.730 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3A 5045 
+Jan 06 16:02:07.731 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3A 
+Jan 06 16:02:07.731 HYPERVISOR: exec_cmd: vm set_disk0 SWL3A 1 
+Jan 06 16:02:07.731 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:02:07.732 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3A 0x60a68e70 
+Jan 06 16:02:07.732 HYPERVISOR: exec_cmd: vm set_ios SWL3A /home/margarida/GNS3/images/c3725-advipservicesk9-mz.124-21.image 
+Jan 06 16:02:07.733 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3A c205.12e5.0000 
+Jan 06 16:02:07.733 HYPERVISOR: exec_cmd: vm set_nvram SWL3A 256 
+Jan 06 16:02:07.734 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:02:07.734 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3A 1 0 NM-16ESW 
+Jan 06 16:02:07.734 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:02:07.734 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3A 2 0 NM-1FE-TX 
+Jan 06 16:02:08.343 HYPERVISOR: exec_cmd: nio create_udp udp-cacca9bc-f80d-481f-908b-e567bbd019a6 10002 127.0.0.1 10003 
+Jan 06 16:02:08.564 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 1 0 udp-cacca9bc-f80d-481f-908b-e567bbd019a6 
+Jan 06 16:02:08.565 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:02:09.022 HYPERVISOR: exec_cmd: nio create_udp udp-5aa25217-7e73-40fa-b58c-3d32cbaebe3d 10010 127.0.0.1 10011 
+Jan 06 16:02:09.024 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 1 1 udp-5aa25217-7e73-40fa-b58c-3d32cbaebe3d 
+Jan 06 16:02:09.024 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:02:09.196 HYPERVISOR: exec_cmd: nio create_udp udp-fe26ec78-e22a-4835-b502-19271eb802b9 10018 127.0.0.1 10019 
+Jan 06 16:02:09.197 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 0 1 udp-fe26ec78-e22a-4835-b502-19271eb802b9 
+Jan 06 16:02:09.197 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:02:10.867 HYPERVISOR: exec_cmd: nio create_udp udp-6001bfbf-69fb-4ba9-8de0-d729b5e89968 10060 127.0.0.1 10061 
+Jan 06 16:02:10.869 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3A 0 0 udp-6001bfbf-69fb-4ba9-8de0-d729b5e89968 
+Jan 06 16:02:10.869 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:02:39.729 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jan 06 16:02:39.729 VM: VM Ghost created.
+Jan 06 16:02:39.730 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/margarida/GNS3/images/c3725-advipservicesk9-mz.124-21.image 
+Jan 06 16:02:39.731 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 06 16:02:39.732 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jan 06 16:02:39.732 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 06 16:02:39.733 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jan 06 16:02:39.733 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 06 16:02:40.030 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 06 16:02:40.031 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jan 06 16:02:40.188 VM: VM Ghost shutdown.
+Jan 06 16:02:40.188 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jan 06 16:02:40.190 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 06 16:02:40.190 VM: VM Ghost destroyed.
+Jan 06 16:02:40.192 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3A 2 
+Jan 06 16:02:40.192 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3A /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jan 06 16:02:40.192 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:02:40.193 HYPERVISOR: exec_cmd: vm set_config SWL3A configs/i5_startup-config.cfg 
+Jan 06 16:02:40.194 HYPERVISOR: exec_cmd: vm start SWL3A 
+Jan 06 16:05:01.900 HYPERVISOR: exec_cmd: vm get_status SWL3A 
+Jan 06 16:05:01.902 HYPERVISOR: exec_cmd: vm stop SWL3A 
+Jan 06 16:05:02.064 VM: VM SWL3A shutdown.
+Jan 06 16:05:02.065 HYPERVISOR: exec_cmd: vm extract_config SWL3A 
+Jan 06 16:05:02.067 HYPERVISOR: exec_cmd: vm delete SWL3A 
+Jan 06 16:05:02.067 VM: VM SWL3A destroyed.
+Jan 06 16:05:02.068 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 06 16:05:02.399 HYPERVISOR: Stopped.
+Jan 06 16:05:02.400 GENERAL: reset done.

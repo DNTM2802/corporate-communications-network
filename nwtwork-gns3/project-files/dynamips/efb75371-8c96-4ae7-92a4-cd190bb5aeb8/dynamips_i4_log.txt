@@ -1,0 +1,51 @@
+Jan 06 16:02:07.640 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 06 16:02:07.640 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42849.
+Jan 06 16:02:07.650 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 06 16:02:07.650 HYPERVISOR: exec_cmd: hypervisor working_dir /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips 
+Jan 06 16:02:07.650 GENERAL: working_dir=/home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips
+Jan 06 16:02:07.651 HYPERVISOR: exec_cmd: hypervisor working_dir /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/efb75371-8c96-4ae7-92a4-cd190bb5aeb8 
+Jan 06 16:02:07.651 GENERAL: working_dir=/home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/efb75371-8c96-4ae7-92a4-cd190bb5aeb8
+Jan 06 16:02:07.651 HYPERVISOR: exec_cmd: vm create Router3 4 c7200 
+Jan 06 16:02:07.651 VM: VM Router3 created.
+Jan 06 16:02:07.651 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router3 5044 
+Jan 06 16:02:07.652 HYPERVISOR: exec_cmd: c7200 get_mac_addr Router3 
+Jan 06 16:02:07.652 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:07.652 HYPERVISOR: exec_cmd: vm slot_add_binding Router3 0 0 C7200-IO-FE 
+Jan 06 16:02:07.653 HYPERVISOR: exec_cmd: vm set_disk0 Router3 0 
+Jan 06 16:02:07.654 HYPERVISOR: exec_cmd: vm set_ios Router3 /home/margarida/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 06 16:02:07.654 HYPERVISOR: exec_cmd: c7200 set_mac_addr Router3 ca04.12d5.0000 
+Jan 06 16:02:07.654 HYPERVISOR: exec_cmd: vm set_nvram Router3 512 
+Jan 06 16:02:07.655 HYPERVISOR: exec_cmd: vm set_ram Router3 512 
+Jan 06 16:02:07.655 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:07.655 HYPERVISOR: exec_cmd: vm slot_add_binding Router3 1 0 PA-FE-TX 
+Jan 06 16:02:07.655 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:07.656 HYPERVISOR: exec_cmd: vm slot_add_binding Router3 2 0 PA-FE-TX 
+Jan 06 16:02:07.656 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:07.656 HYPERVISOR: exec_cmd: vm slot_add_binding Router3 3 0 PA-FE-TX 
+Jan 06 16:02:07.656 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:07.657 HYPERVISOR: exec_cmd: vm slot_add_binding Router3 4 0 PA-FE-TX 
+Jan 06 16:02:07.657 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:07.657 HYPERVISOR: exec_cmd: vm slot_add_binding Router3 5 0 PA-FE-TX 
+Jan 06 16:02:07.657 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:07.658 HYPERVISOR: exec_cmd: vm slot_add_binding Router3 6 0 PA-FE-TX 
+Jan 06 16:02:10.447 HYPERVISOR: exec_cmd: nio create_udp udp-f68e65db-f657-4dfc-92ad-dc727e244c47 10052 127.0.0.1 10053 
+Jan 06 16:02:10.667 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router3 0 0 udp-f68e65db-f657-4dfc-92ad-dc727e244c47 
+Jan 06 16:02:10.668 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:11.637 HYPERVISOR: exec_cmd: nio create_udp udp-8bf3318a-2178-4fc3-a095-6fb93fbaf548 10082 127.0.0.1 10083 
+Jan 06 16:02:11.638 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router3 1 0 udp-8bf3318a-2178-4fc3-a095-6fb93fbaf548 
+Jan 06 16:02:11.639 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:39.722 HYPERVISOR: exec_cmd: vm set_ghost_status Router3 2 
+Jan 06 16:02:39.724 HYPERVISOR: exec_cmd: vm set_ghost_file Router3 /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/c7200-jk9o3s-mz.123-8.T.bin-512.ghost 
+Jan 06 16:02:39.726 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:02:39.730 HYPERVISOR: exec_cmd: vm set_config Router3 configs/i4_startup-config.cfg 
+Jan 06 16:02:39.731 HYPERVISOR: exec_cmd: vm start Router3 
+Jan 06 16:03:09.977 HYPERVISOR: exec_cmd: vm extract_config Router3 
+Jan 06 16:05:01.901 HYPERVISOR: exec_cmd: vm get_status Router3 
+Jan 06 16:05:01.903 HYPERVISOR: exec_cmd: vm stop Router3 
+Jan 06 16:05:02.025 VM: VM Router3 shutdown.
+Jan 06 16:05:02.026 HYPERVISOR: exec_cmd: vm extract_config Router3 
+Jan 06 16:05:02.027 HYPERVISOR: exec_cmd: vm delete Router3 
+Jan 06 16:05:02.027 VM: VM Router3 destroyed.
+Jan 06 16:05:02.028 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 06 16:05:02.400 HYPERVISOR: Stopped.
+Jan 06 16:05:02.400 GENERAL: reset done.

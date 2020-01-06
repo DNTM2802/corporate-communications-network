@@ -1,0 +1,54 @@
+Jan 06 16:02:07.599 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 06 16:02:07.599 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47621.
+Jan 06 16:02:07.609 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 06 16:02:07.610 HYPERVISOR: exec_cmd: hypervisor working_dir /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips 
+Jan 06 16:02:07.610 GENERAL: working_dir=/home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips
+Jan 06 16:02:07.610 HYPERVISOR: exec_cmd: hypervisor working_dir /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/00fc88d6-bc19-42ac-82d5-1740dd7c36aa 
+Jan 06 16:02:07.610 GENERAL: working_dir=/home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/00fc88d6-bc19-42ac-82d5-1740dd7c36aa
+Jan 06 16:02:07.610 HYPERVISOR: exec_cmd: vm create Router2 3 c7200 
+Jan 06 16:02:07.610 VM: VM Router2 created.
+Jan 06 16:02:07.611 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router2 5043 
+Jan 06 16:02:07.611 HYPERVISOR: exec_cmd: c7200 get_mac_addr Router2 
+Jan 06 16:02:07.611 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:07.612 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 0 0 C7200-IO-FE 
+Jan 06 16:02:07.612 HYPERVISOR: exec_cmd: vm set_disk0 Router2 0 
+Jan 06 16:02:07.613 HYPERVISOR: exec_cmd: vm set_ios Router2 /home/margarida/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 06 16:02:07.613 HYPERVISOR: exec_cmd: c7200 set_mac_addr Router2 ca03.12c2.0000 
+Jan 06 16:02:07.614 HYPERVISOR: exec_cmd: vm set_nvram Router2 512 
+Jan 06 16:02:07.614 HYPERVISOR: exec_cmd: vm set_ram Router2 512 
+Jan 06 16:02:07.614 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:07.614 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 1 0 PA-FE-TX 
+Jan 06 16:02:07.615 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:07.615 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 2 0 PA-FE-TX 
+Jan 06 16:02:07.615 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:07.616 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 3 0 PA-FE-TX 
+Jan 06 16:02:07.616 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:07.616 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 4 0 PA-FE-TX 
+Jan 06 16:02:07.616 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:07.616 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 5 0 PA-FE-TX 
+Jan 06 16:02:07.617 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:07.617 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 6 0 PA-FE-TX 
+Jan 06 16:02:09.924 HYPERVISOR: exec_cmd: nio create_udp udp-fff549b6-b4a8-4356-be6e-be367f685da9 10038 127.0.0.1 10039 
+Jan 06 16:02:10.144 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 0 0 udp-fff549b6-b4a8-4356-be6e-be367f685da9 
+Jan 06 16:02:10.146 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:10.236 HYPERVISOR: exec_cmd: nio create_udp udp-63b0ea31-c19a-4618-abdc-2e55cc62f712 10042 127.0.0.1 10043 
+Jan 06 16:02:10.238 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 1 0 udp-63b0ea31-c19a-4618-abdc-2e55cc62f712 
+Jan 06 16:02:10.238 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:10.434 HYPERVISOR: exec_cmd: nio create_udp udp-adf708db-401c-430f-ab40-1515eea3f31d 10050 127.0.0.1 10051 
+Jan 06 16:02:10.436 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 2 0 udp-adf708db-401c-430f-ab40-1515eea3f31d 
+Jan 06 16:02:10.436 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:39.486 HYPERVISOR: exec_cmd: vm set_ghost_status Router2 2 
+Jan 06 16:02:39.488 HYPERVISOR: exec_cmd: vm set_ghost_file Router2 /home/margarida/GNS3/projects/nwtwork-gns3/project-files/dynamips/c7200-jk9o3s-mz.123-8.T.bin-512.ghost 
+Jan 06 16:02:39.489 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:02:39.490 HYPERVISOR: exec_cmd: vm set_config Router2 configs/i3_startup-config.cfg 
+Jan 06 16:02:39.491 HYPERVISOR: exec_cmd: vm start Router2 
+Jan 06 16:03:09.712 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 06 16:05:01.901 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 06 16:05:01.902 HYPERVISOR: exec_cmd: vm stop Router2 
+Jan 06 16:05:02.038 VM: VM Router2 shutdown.
+Jan 06 16:05:02.039 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 06 16:05:02.041 HYPERVISOR: exec_cmd: vm delete Router2 
+Jan 06 16:05:02.041 VM: VM Router2 destroyed.
+Jan 06 16:05:02.042 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 06 16:05:02.400 HYPERVISOR: Stopped.
+Jan 06 16:05:02.400 GENERAL: reset done.
